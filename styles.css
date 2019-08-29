@@ -1,0 +1,156 @@
+/*.form-inline{
+	align-self: center;
+	margin-top: -20px;
+	
+}
+.formClass{
+	background: green;
+	position: relative;
+}*/
+.slideImage {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.formClass {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card > img {
+    width: 180px;
+    height: 120px;
+}
+
+.card{
+	width: 180px;
+}
+.navbar-brand > img{
+    width: 150px;
+    height: 50px;
+}
+
+#bestsellers{
+	background: #937143;
+}
+
+.btn{
+	background: #d7c49eff;
+}
+.col-md-6{
+	height: 450px;
+	
+	padding: 0 !important;
+   margin: 0 !important;
+}
+#shopSection{
+	padding: 10px;
+}
+
+#sideImg1{
+	background-image: url(images/bestseller1.jpg);
+	
+  		
+}
+#sideImg2{
+	background-image: url(images/bestseller2.jpg);	
+}
+
+.box{
+	float: left;
+	margin: 30px;
+	margin-top: 80px;
+	padding: 10px;
+}
+
+
+.contact-section {
+    padding: 30px 0;
+    background-color: #F2F2F2;
+}
+.mapouter{
+	margin-top: 80px;
+	padding-left: 50px;
+
+
+}
+.contact{
+	margin-right: 80px;
+}
+.contact-title {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 0 0 39px;
+    padding: 0 0 11px;
+    position: relative;
+    text-transform: uppercase;
+    color: #000;
+}
+.contact-title::after {
+    background: grey none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 54px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+.containerContact input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: grey;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+/* Add a background color and some padding around the form */
+.containerContact {
+	width: 500px;
+
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+#footerSection{
+	padding: 20px;
+	margin-top: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:grey; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+
+
+
